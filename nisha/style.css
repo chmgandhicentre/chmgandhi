@@ -1,0 +1,97 @@
+{
+	margin: 0;
+	padding: 0;
+	
+}
+.header{
+	min-height: 90vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(2,9,24,0.7), rgba(2,5,24,0.7)), url(./gandhi.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+nav
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1% 4%;
+
+}
+.nav a{
+	color: white;
+	font-size: x-large;
+	text-decoration: none;
+
+
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+	font-size: 15px;
+
+}
+.nav-links ul li{
+	display: inline-block;
+	margin: 5px 20px;
+
+}
+.nav-links ul li a{
+	font-size: 14px;
+	text-decoration: none;
+	color: blanchedalmond;
+
+}
+
+.nav-links ul li a::after{
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0%;
+	background: yellow;
+	transition: 0.6s;
+
+}
+.nav-links ul li a:hover:after{
+	width: 100%;
+}
+.text-box{
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.text-box h1{
+	font-size: 60px;
+	padding: 0.1%;
+
+}
+.text-box p{
+	font-size: 30px;
+
+
+}
+.text-box a{
+	font-size: 18px;
+	text-decoration: none;
+	color: darkblue;
+	display: inline-block;
+	padding: 10px 30px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	margin-left: 2px;
+	background: transparent;
+	transition: 0.3s;
+
+}
+.text-box a:hover{
+	background: indianred ;
+
+}
